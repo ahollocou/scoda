@@ -7,18 +7,16 @@ please refer to the minimal version of the code.
 
 ### Compilation
 
-Execute the following commands in the **benchmark_code** directory:
+Execute the following commands:
 
     mkdir build
     cd build
     cmake ..
     make
 
-Note: For MacOS X, install GCC with Homebrew and use:
-
-    cmake -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/6.2.0/bin/g++-6 ..
-
 ### Usage
+
+The compiled program is located in the `build` directory.
 
     Usage: scoda <flags>
     Availaible flags:
